@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../assets/iconnguyencoder.png';
-import { } from '@heroicons/react/24/outline';
+import menu from '../assets/menu.svg';
+import close from '../assets/close.svg';
 
 function NavBar() {
+    const [toggle, setToggle] = useState(false);
   return (
     <nav className='bg-slate-800 w-full xl:max-w-[1280px] overflow-hidden
                     flex justify-between items-center'>
@@ -15,8 +17,13 @@ function NavBar() {
             <li className=""><a href="">Contact</a></li>
         </ul>
 
-        <div className="md:hidden">
-            <img src="" alt="" className="" />
+        <div className="md:hidden flex justify-end items-center">
+            <img src={toggle ? close : menu } alt="" 
+                className="text-slate-50 object-contain" 
+                onClick={() => setToggle((prev)=> !prev)}/>
+            <div className="">
+
+            </div>
         </div>
     </nav>
   )
