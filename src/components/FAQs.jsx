@@ -5,9 +5,14 @@ import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 function FAQs() {
     const faqs = [
         {
-          question: "What's the best thing about Switzerland?",
+          question: `Pourquoi Nguyen Dev? `,
           answer:
-            "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+            `Rapide, dévoué, amusant et de haute qualité à bas prix`,
+        },
+        {
+          question: `Rapide? `,
+          answer:
+            `oui, un jour serait rapide pour vous?`,
         },
         
       ]
