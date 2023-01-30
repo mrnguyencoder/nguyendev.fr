@@ -10,9 +10,14 @@ function FAQs() {
             `Rapide, dévoué, amusant et de haute qualité à bas prix`,
         },
         {
-          question: `Rapide? `,
+          question: `Alors… combien coûte un site internet sur-mesure ? `,
           answer:
-            `oui, un jour serait rapide pour vous?`,
+            `À partir de 250€ pour un site web vitrine`,
+        },
+        {
+          question: `Pendent combien de temps? `,
+          answer:
+            `Ca depends de vos demand mais le plus rapide est un jour, oui, 1 jour`,
         },
         
       ]

@@ -1,4 +1,6 @@
 import React from 'react';
+import Card from './components/Card';
+import Contact from './components/Contact';
 import FAQs from './components/FAQs';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
@@ -9,7 +11,9 @@ function App() {
     <div>
       <NavBar/>
       <Hero/>
+      <Card/>
       <FAQs/>
+      <Contact/>
       <Footer/>
     </div>
   )
