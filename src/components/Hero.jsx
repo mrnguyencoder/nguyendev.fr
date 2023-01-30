@@ -46,11 +46,11 @@ function Hero() {
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#contact"
-                  className="rounded-md bg-[#F0DB4F] px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-lg hover:scale-90"
+                  className="rounded-md bg-[#F0DB4F] px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-lg hover:scale-90 transition duration-500"
                 >
                  Demande de Devis 
                 </a>
-                <a href="#faqs" className="rounded-md px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-lg bg-[#61dbfb] hover:scale-90">
+                <a href="#faqs" className="rounded-md px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-lg bg-[#61dbfb] hover:scale-90 transition duration-500">
                   En savoir plus  <span aria-hidden="true">→</span>
                 </a>
               </div>
@@ -85,33 +85,33 @@ function Hero() {
         </div>
       </main>
     </div>
-    <div className="bg-gray-50 pt-12 sm:pt-16">
+    <div className="pt-12 sm:pt-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-slate-600 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
           Clients dans tous les domaines
           </h2>
-          <p className="mt-3 text-xl text-gray-500 sm:mt-4">
+          <p className="mt-3 text-xl text-gray-400 sm:mt-4">
           Photographes, Restaurants, Écrivains, Étudiants, Blogueurs... 
           </p>
         </div>
       </div>
-      <div className="mt-10 bg-white pb-12 sm:pb-16">
+      <div className="mt-10 pb-12 sm:pb-16">
         <div className="relative">
-          <div className="absolute inset-0 h-1/2 bg-gray-50" />
+          <div className="absolute inset-0 h-1/2" />
           <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-4xl">
-              <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
-                <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
-                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Le Responsive Web Design</dt>
+            <div className="mx-auto max-w-4xl ">
+              <dl className="rounded-lg border border-[#F0DB4F] bg-gray-500 shadow-lg sm:grid sm:grid-cols-3">
+                <div className="flex flex-col border-b border-[#F0DB4F] p-6 text-center sm:border-0 sm:border-r">
+                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-100">Le Responsive Web Design</dt>
                   <dd className="order-1 text-5xl font-bold tracking-tight text-[#61dbfb]">100%</dd>
                 </div>
-                <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
-                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Service</dt>
+                <div className="flex flex-col border-t border-b border-[#F0DB4F] p-6 text-center sm:border-0 sm:border-l sm:border-r">
+                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-100">Service</dt>
                   <dd className="order-1 text-5xl font-bold tracking-tight text-[#61dbfb]">24/7</dd>
                 </div>
-                <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
-                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Réponse</dt>
+                <div className="flex flex-col border-t border-[#F0DB4F] p-6 text-center sm:border-0 sm:border-l">
+                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-100">Réponse</dt>
                   <dd className="order-1 text-5xl font-bold tracking-tight text-[#61dbfb]">1J</dd>
                 </div>
               </dl>
