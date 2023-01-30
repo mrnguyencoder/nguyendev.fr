@@ -45,13 +45,13 @@ function Hero() {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="#"
-                  className="rounded-md bg-[#F0DB4F] px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                  href="#contact"
+                  className="rounded-md bg-[#F0DB4F] px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-lg hover:scale-90"
                 >
-                  Faire Devi
+                 Demande de Devis 
                 </a>
-                <a href="#" className="text-base font-semibold leading-7 text-white">
-                En savoir plus  <span aria-hidden="true">→</span>
+                <a href="#faqs" className="rounded-md px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-lg bg-[#61dbfb] hover:scale-90">
+                  En savoir plus  <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>

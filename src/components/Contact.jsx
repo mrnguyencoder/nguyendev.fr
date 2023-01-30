@@ -3,7 +3,7 @@ import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 
 function Contact() {
   return (
-    <div className="mx-auto max-w-7xl bg-slate-900">
+    <section id="contact" className="mx-auto max-w-7xl bg-slate-900">
       <div className="relative bg-slate-900 shadow-xl">
         <h2 className="sr-only">Contact</h2>
 
@@ -298,7 +298,7 @@ function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
