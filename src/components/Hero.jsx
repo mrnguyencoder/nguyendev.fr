@@ -11,11 +11,11 @@ function Hero() {
           Création de Site Internet Sur Mesure
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-          Le coût d’un site web vitrine pour une petite entreprise commence à environ 350€.
+          À partir de 250€ pour un site web vitrine 
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="#"
+              href="https://wa.me/33782885224"
               className="rounded-md bg-[#25d366] px-3.5 py-1.5 text-base font-semibold leading-7 text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
               WhatsApp-moi
@@ -41,7 +41,7 @@ function Hero() {
                 gradientTransform="translate(512 512) rotate(90) scale(512)"
               >
                 <stop stopColor="#7775D6" />
-                <stop offset={1} stopColor="#E935C1" stopOpacity={0} />
+                <stop offset={1} stopColor="#61dbfb" stopOpacity={0} />
               </radialGradient>
             </defs>
           </svg>
@@ -55,7 +55,7 @@ function Hero() {
           Clients dans tous les domaines
           </h2>
           <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-            Photographes, Restaurants, Ecrivants, Edutians, Blogueurs...
+          Photographes, Restaurants, Écrivains, Étudiants, Blogueurs... 
           </p>
         </div>
       </div>
