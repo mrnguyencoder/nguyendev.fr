@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
+import MentionsLegales from './MentionsLegales';
+
+
 
 
 function Footer() {
+  const [showMentionsLegales, setMentionsLegales] = useState(false);
+  
   const navigation = [
     
     {
@@ -69,7 +74,7 @@ function Footer() {
   }
   return (
     <footer className="bg-gray-800">
-    <div className="mx-auto py-10 px-4 lg:flex lg:justify-between">
+    <div className="mx-auto pt-6 px-4 lg:flex lg:justify-between">
       <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
         {footerNavigation.main.map((item) => (
           <div key={item.name} className="px-5 py-2">
@@ -93,6 +98,18 @@ function Footer() {
         &copy; {new Date().getFullYear()} Nguyen Dev | Tous droits réservés.
       </p>
     </div>
+    <div className="text-center py-6">
+      <button onClick={() => setMentionsLegales(true)}
+              className="text-gray-400 hover:scale-110 hover:text-slate-300">
+        Mentions Legales
+      </button>
+      {showMentionsLegales && (
+        <MentionsLegales onClose={() => setMentionsLegales(false)} />
+      )}
+    </div>
+
+
+
   </footer>
   )
 }
