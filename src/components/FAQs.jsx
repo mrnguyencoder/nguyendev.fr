@@ -35,9 +35,9 @@ function FAQs() {
             `Bien sûr oui, je vous accompagne à vie, vous avez besoin de modifier, de mettre à niveau ou d'ajouter des fonctionnalités, je peux m'adapter à tous`,
         },
         {
-          question: ``,
+          question: `Comment me contacter ?`,
           answer:
-            ``,
+            `Je préfère rencontrer en Ile de France, mais je peux aussi travailler avec vous à distance par téléphone ou réseaux sociaux. Je m'adapte à vos besoins. `,
         },
         
       ]
