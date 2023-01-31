@@ -5,19 +5,39 @@ import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 function FAQs() {
     const faqs = [
         {
-          question: `Pourquoi Nguyen Dev? `,
+          question: `Pourquoi devriez-vous me choisir?`,
           answer:
-            `Rapide, dévoué, amusant et de haute qualité à bas prix`,
+            `Merci de l'intérêt que vous portez à moi parmi d'innombrables autres programmeurs, je viens de commencer avec une année d'expérience mais je suis convaincu que mes services sont excellents, notamment :meilleur prix pour la qualité correspondante, Dédié à servir parce que je comprends que vous avez besoin d'un site Web avec votre propre style `,
         },
         {
-          question: `Alors… combien coûte un site internet sur-mesure ? `,
+          question: `Prix ​​le plus bas pour 1 site Web ?`,
           answer:
-            `À partir de 250€ pour un site web vitrine`,
+            `À partir de 150€ pour CV étudiant, et le restaurant n'a qu'une seule page de menu. Et à partir de 350€ pour un site web vitrine personel ou entreprise `,
         },
         {
-          question: `Pendent combien de temps? `,
+          question: `Mais pourquoi le prix est-il si bon ?`,
           answer:
-            `Ca depends de vos demand mais le plus rapide est un jour, oui, 1 jour`,
+            `Mon auto-entrepreneur vient de démarrer, alors profitez-en.`,
+        },
+        {
+          question: `Quel programme je utilise pour programmer ?`,
+          answer:
+            `Je code depuis le début avec React JS, Vite, Next JS...Et Hébergement Business avec Hostinger`,
+        },
+        {
+          question: `Combien de temps faut-il pour avoir un site web ?`,
+          answer:
+            `Selon le projet dont vous avez besoin de plus ou moins, si c'est simple, je le fais en 1 jour, mais si vous avez besoin de beaucoup de fonctionnalités et modifiez beaucoup de détails, cela peut prendre plus de temps, peut-être 3-4 semaines`,
+        },
+        {
+          question: `Continuerez-vous à suivre le site après cela ?`,
+          answer:
+            `Bien sûr oui, je vous accompagne à vie, vous avez besoin de modifier, de mettre à niveau ou d'ajouter des fonctionnalités, je peux m'adapter à tous`,
+        },
+        {
+          question: ``,
+          answer:
+            ``,
         },
         
       ]
