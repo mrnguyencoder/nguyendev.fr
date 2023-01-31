@@ -5,10 +5,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 function NavBar() {
     const navigation = [
-        { name: 'Accueil', href: "#home" },
-        { name: 'Prestations', href: `#` },
-        { name: 'FAQs', href: `#` },
-        { name: 'Contact', href: `#` },
+      { name: 'Accueil', href: '#home' },
+      { name: 'Prestations', href: '#prestations' },
+      { name: 'FAQs', href: '#faqs' },
+      { name: 'Contact', href: '#contact' },
       ];
       const [mobileMenuOpen, setMobileMenuOpen] = useState(false); 
   return (
@@ -23,6 +23,8 @@ function NavBar() {
       <div className="flex lg:hidden">
         <button
           type="button"
+          aria-label="Open main menu"
+          role="button"
           className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-100"
           onClick={() => setMobileMenuOpen(true)}
         >
@@ -38,7 +40,9 @@ function NavBar() {
         ))}
       </div>
       <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="https://wa.me/33782885224" className="text-sm font-semibold leading-6 text-[#F0DB4F] hover:text-[#25d366]">
+        <a href="https://wa.me/33782885224" 
+            target="_blank" rel="noreferrer"
+            className="text-sm font-semibold leading-6 text-[#F0DB4F] hover:text-[#25d366]">
         WhatsApp-moi <span aria-hidden="true">&rarr;</span>
         </a>
       </div>

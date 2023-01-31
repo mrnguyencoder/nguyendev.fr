@@ -80,7 +80,9 @@ function Footer() {
       </nav>
       <div className="mt-6 lg:mt-0 flex justify-center space-x-6">
         {footerNavigation.social.map((item) => (
-          <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-300">
+          <a key={item.name} href={item.href} 
+            target="_blank" rel="noreferrer"
+            className="text-gray-400 hover:text-gray-300">
             <span className="sr-only">{item.name}</span>
             <item.icon className="h-6 w-6" aria-hidden="true" />
           </a>
