@@ -12,7 +12,7 @@ function NavBar() {
       ];
       const [mobileMenuOpen, setMobileMenuOpen] = useState(false); 
   return (
-    <div className="p-5 lg:p-8 bg-slate-800">
+    <div className="px-5 py-3 md:px-8 md:py-5 bg-slate-800">
     <nav className="flex items-center justify-between" aria-label="Global">
       <div className="flex lg:flex-1">
         <a href="#accueil" className="-m-1.5 p-1.5">
