@@ -32,7 +32,7 @@ function Footer() {
   ]
   const footerNavigation = {
     main: [
-      { name: 'Accueil', href: '#home' },
+      { name: 'Accueil', href: '#accueil' },
       { name: 'Prestations', href: '#prestations' },
       { name: 'FAQs', href: '#faqs' },
       { name: 'Contact', href: '#contact' },

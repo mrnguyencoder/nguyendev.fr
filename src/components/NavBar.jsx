@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 function NavBar() {
     const navigation = [
-      { name: 'Accueil', href: '#home' },
+      { name: 'Accueil', href: '#accueil' },
       { name: 'Prestations', href: '#prestations' },
       { name: 'FAQs', href: '#faqs' },
       { name: 'Contact', href: '#contact' },
@@ -15,7 +15,7 @@ function NavBar() {
     <div className="p-5 lg:p-8 bg-slate-800">
     <nav className="flex items-center justify-between" aria-label="Global">
       <div className="flex lg:flex-1">
-        <a href="#home" className="-m-1.5 p-1.5">
+        <a href="#accueil" className="-m-1.5 p-1.5">
           <span className="sr-only">Nguyen Dev</span>
           <img className="h-8" src={logo} alt="Nguyen Dev" />
         </a>
@@ -50,7 +50,7 @@ function NavBar() {
     <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
       <Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-gray-800 p-5 lg:hidden">
         <div className="flex items-center justify-between">
-          <a href="#home" className="-m-1.5 p-1.5">
+          <a href="#accueil" className="-m-1.5 p-1.5">
             <span className="sr-only">Nguyen Dev</span>
             <img className="h-8" src={logo} alt="Nguyen Dev" />
           </a>
@@ -70,6 +70,7 @@ function NavBar() {
                 <a
                   key={item.name}
                   href={item.href}
+                  onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-gray-400/10"
                 >
                   {item.name}
@@ -79,6 +80,7 @@ function NavBar() {
             <div className="py-6">
               <a
                 href="https://wa.me/33782885224"
+                target="_blank" rel="noreferrer"
                 className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-white hover:bg-[#25d366]"
               >
                 WhatsApp-moi
