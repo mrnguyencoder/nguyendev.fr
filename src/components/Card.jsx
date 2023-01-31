@@ -2,10 +2,10 @@ import React from 'react'
 
 function Card() {
     const metrics = [
-        { id: 1, stat: `Logo`, emphasis: 'Companies', rest: 'use laoreet amet lacus nibh integer quis.' },
-        { id: 2, stat: 'Design templates', emphasis: 'Countries around the globe', rest: 'lacus nibh integer quis.' },
-        { id: 3, stat: 'SEO', emphasis: 'Customer satisfaction', rest: 'laoreet amet lacus nibh integer quis.' },
-        { id: 4, stat: `SEO`, emphasis: 'Issues resolved', rest: 'lacus nibh integer quis.' },
+        { id: 1, stat: `1, Restaurants`, emphasis: 'Menu QR Code pour Restaurants et Bars sur téléphone', rest: `Je vais créer un site Web et un code-barre pour vous afin que les clients puissent accéder rapidement au menu et les services de votre restaurant` },
+        { id: 2, stat: `2, Étudiants`, emphasis: 'Votre CV en ligne', rest: `le monde se tourne vers la technologie, mettez votre profil sur un site internet, je vais vous aider !` },
+        { id: 3, stat: '3, Site Vitrine', emphasis: 'Personel ou entreprise', rest: `Les gens demandent pourquoi vous n'avez pas de site Web à présenter aux clients, alors que vos fonds économiques sont limités ? Ne vous inquiétez pas, contactez-moi!` },
+        { id: 4, stat: `4, Blogueurs`, emphasis: `Soyez votre propre écrivain à l'ère de Fake-news`, rest: `J'ai toujours cru qu'écrire à la main gardera votre esprit actif et développé, pourquoi ne pas créer un site Web pour écrire sur ce que vous voulez ?` },
       ]
   return (
     <section className="relative bg-gray-900">
@@ -31,7 +31,7 @@ function Card() {
             Laissez-moi vous aider de A à Z
             </p>
             <p className="mt-5 text-lg text-gray-300">
-            La création d'un site internet implique de nombreuses étapes, je vous aiderai au mieux de mes capacités!
+            Afin de maximiser mon orientation site web produit, je me concentre actuellement uniquement sur les quatre clients suivants :
             </p>
             <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
             {metrics.map((item) => (
