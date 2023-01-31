@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import logo from '../assets/iconnguyencoder.png';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 function NavBar() {
     const navigation = [
-        { name: 'Accueil', href: '#' },
-        { name: 'Prestations', href: '#' },
-        { name: 'FAQs', href: '#' },
-        { name: 'Contact', href: '#' },
+        { name: 'Accueil', href: "#home" },
+        { name: 'Prestations', href: `#` },
+        { name: 'FAQs', href: `#` },
+        { name: 'Contact', href: `#` },
       ];
       const [mobileMenuOpen, setMobileMenuOpen] = useState(false); 
   return (
     <div className="p-5 lg:p-8 bg-slate-800">
     <nav className="flex items-center justify-between" aria-label="Global">
       <div className="flex lg:flex-1">
-        <a href="#" className="-m-1.5 p-1.5">
+        <a href="#home" className="-m-1.5 p-1.5">
           <span className="sr-only">Nguyen Dev</span>
           <img className="h-8" src={logo} alt="Nguyen Dev" />
         </a>
@@ -46,7 +46,7 @@ function NavBar() {
     <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
       <Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-gray-800 p-5 lg:hidden">
         <div className="flex items-center justify-between">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="#home" className="-m-1.5 p-1.5">
             <span className="sr-only">Nguyen Dev</span>
             <img className="h-8" src={logo} alt="Nguyen Dev" />
           </a>

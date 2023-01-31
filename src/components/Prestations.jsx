@@ -8,7 +8,7 @@ function Prestations() {
         { id: 4, stat: `4, Blogueurs`, emphasis: `Soyez votre propre écrivain à l'ère de Fake-news.`, rest: `J'ai toujours cru qu'écrire à la main gardera votre esprit actif et développé, pourquoi ne pas créer un site Web pour écrire sur ce que vous voulez ?` },
       ]
   return (
-    <section className="relative bg-gray-900">
+    <section id="prestations" className="relative bg-gray-900">
         <div className="absolute bottom-0 h-80 w-full xl:inset-0 xl:h-full">
         <div className="h-full w-full xl:grid xl:grid-cols-2">
             <div className="h-full xl:relative xl:col-start-2">
