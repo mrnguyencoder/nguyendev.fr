@@ -131,7 +131,9 @@ function Contact() {
           {/* Contact form */}
           <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
             <h3 className="text-lg font-medium text-gray-50">Envoie-moi un message</h3>
-            <form action="#" method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+            <form action="https://formsubmit.co/mr.nguyencoder@gmail.com" 
+                  method="POST" 
+                  className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
               <div>
                 <label htmlFor="first-name" className="block text-sm font-medium text-gray-50">
                   Votre nom
@@ -141,6 +143,7 @@ function Contact() {
                     type="text"
                     name="first-name"
                     id="first-name"
+                    maxlength="30"
                     autoComplete="given-name"
                     className="block w-full rounded-xl py-3 px-4 bg-slate-300 focus:outline-none focus:ring-2"
                   />
@@ -155,6 +158,7 @@ function Contact() {
                     type="text"
                     name="last-name"
                     id="last-name"
+                    maxlength="30"
                     autoComplete="family-name"
                     className="block w-full rounded-xl py-3 px-4 bg-slate-300 focus:outline-none focus:ring-2"
                   />
@@ -169,6 +173,8 @@ function Contact() {
                     id="email"
                     name="email"
                     type="email"
+                    maxlength="50"
+                    required
                     autoComplete="email"
                     className="block w-full rounded-xl py-3 px-4 bg-slate-300 focus:outline-none focus:ring-2"
                   />
@@ -182,7 +188,7 @@ function Contact() {
                 </div>
                 <div className="mt-1">
                   <input
-                    type="text"
+                    type="number"
                     name="phone"
                     id="phone"
                     autoComplete="tel"
@@ -199,6 +205,7 @@ function Contact() {
                     type="text"
                     name="subject"
                     id="subject"
+                    maxlength="200"
                     className="block w-full rounded-xl py-3 px-4 bg-slate-300 focus:outline-none focus:ring-2"
                   />
                 </div>
@@ -217,6 +224,7 @@ function Contact() {
                     id="message"
                     name="message"
                     rows={4}
+                    maxlength="600"
                     className="block w-full rounded-xl py-3 px-4 bg-slate-300 focus:outline-none focus:ring-2"
                     aria-describedby="message-max"
                     defaultValue={''}
@@ -228,7 +236,7 @@ function Contact() {
                   type="submit"
                   className="mt-2 rounded-full bg-[#61dbfb] px-5 py-2 hover:bg-[#F0DB4F] hover:scale-90 transition duration-500 "
                 >
-                  Submit
+                  Envoyer
                 </button>
               </div>
             </form>
