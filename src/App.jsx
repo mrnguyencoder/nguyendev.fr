@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './components/Card';
+import Prestations from './components/Prestations';
 import Contact from './components/Contact';
 import FAQs from './components/FAQs';
 import Footer from './components/Footer';
@@ -11,7 +11,7 @@ function App() {
     <div>
       <NavBar/>
       <Hero/>
-      <Card/>
+      <Prestations/>
       <FAQs/>
       <Contact/>
       <Footer/>

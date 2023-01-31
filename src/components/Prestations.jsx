@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-function Card() {
-    const metrics = [
-        { id: 1, stat: `1, Restaurants`, emphasis: 'Menu QR Code pour Restaurants et Bars sur téléphone', rest: `Je vais créer un site Web et un code-barre pour vous afin que les clients puissent accéder rapidement au menu et les services de votre restaurant` },
-        { id: 2, stat: `2, Étudiants`, emphasis: 'Votre CV en ligne', rest: `le monde se tourne vers la technologie, mettez votre profil sur un site internet, je vais vous aider !` },
-        { id: 3, stat: '3, Site Vitrine', emphasis: 'Personel ou entreprise', rest: `Les gens demandent pourquoi vous n'avez pas de site Web à présenter aux clients, alors que vos fonds économiques sont limités ? Ne vous inquiétez pas, contactez-moi!` },
-        { id: 4, stat: `4, Blogueurs`, emphasis: `Soyez votre propre écrivain à l'ère de Fake-news`, rest: `J'ai toujours cru qu'écrire à la main gardera votre esprit actif et développé, pourquoi ne pas créer un site Web pour écrire sur ce que vous voulez ?` },
+function Prestations() {
+    const prestations = [
+        { id: 1, stat: `1, Restaurants`, emphasis: 'Menu QR Code pour Restaurants et Bars sur téléphone.', rest: `Je vais créer un site Web et un code-barre pour vous afin que les clients puissent accéder rapidement au menu et les services de votre restaurant` },
+        { id: 2, stat: `2, Étudiants`, emphasis: 'Votre CV en ligne.', rest: `Le monde se tourne vers la technologie, mettez votre profil sur un site internet, je vais vous aider !` },
+        { id: 3, stat: '3, Site Vitrine', emphasis: 'Personel ou entreprise.', rest: `Les gens demandent pourquoi vous n'avez pas de site Web à présenter aux clients, alors que vos fonds économiques sont limités ? Ne vous inquiétez pas, contactez-moi!` },
+        { id: 4, stat: `4, Blogueurs`, emphasis: `Soyez votre propre écrivain à l'ère de Fake-news.`, rest: `J'ai toujours cru qu'écrire à la main gardera votre esprit actif et développé, pourquoi ne pas créer un site Web pour écrire sur ce que vous voulez ?` },
       ]
   return (
     <section className="relative bg-gray-900">
@@ -26,15 +26,15 @@ function Card() {
         </div>
         <div className="mx-auto max-w-4xl px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-flow-col-dense xl:grid-cols-2 xl:gap-x-8">
         <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-            <h2 className="text-base font-semibold text-indigo-300">Réalisez vos idées</h2>
-            <p className="mt-3 text-3xl font-bold tracking-tight text-white">
-            Laissez-moi vous aider de A à Z
+            <h2 className="text-base font-semibold text-indigo-300 tracking-wider">Réalisez vos idées</h2>
+            <p className="mt-3 text-3xl font-bold text-white">
+            Afin de maximiser mon orientation site web produit, je me concentre actuellement uniquement sur les quatre clients suivants
             </p>
             <p className="mt-5 text-lg text-gray-300">
-            Afin de maximiser mon orientation site web produit, je me concentre actuellement uniquement sur les quatre clients suivants :
+            Laissez-moi vous aider de A à Z: logo, menu, CV, domaine, site web, SEO, Fiche d'établissement Google...
             </p>
             <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
-            {metrics.map((item) => (
+            {prestations.map((item) => (
                 <p key={item.id}>
                 <span className="block text-2xl font-bold text-white">{item.stat}</span>
                 <span className="mt-1 block text-base text-gray-300">
@@ -49,4 +49,4 @@ function Card() {
   )
 }
 
-export default Card
+export default Prestations
