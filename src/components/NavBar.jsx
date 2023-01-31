@@ -42,7 +42,7 @@ function NavBar() {
       <div className="hidden lg:flex lg:flex-1 lg:justify-end">
         <a href="https://wa.me/33782885224" 
             target="_blank" rel="noreferrer"
-            className="text-sm font-semibold leading-6 text-[#F0DB4F] hover:text-[#25d366]">
+            className="text-sm font-semibold leading-6 text-[#25d366] hover:text-[#F0DB4F]">
         WhatsApp-moi <span aria-hidden="true">&rarr;</span>
         </a>
       </div>
