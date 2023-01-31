@@ -67,8 +67,8 @@ function Footer() {
     ],
   }
   return (
-    <footer className="mt-24 bg-gray-800 sm:mt-12">
-    <div className="mx-auto max-w-md overflow-hidden py-12 px-6 sm:max-w-3xl lg:max-w-7xl lg:px-8">
+    <footer className="bg-gray-800">
+    <div className="mx-auto py-10 px-4 lg:flex lg:justify-between">
       <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
         {footerNavigation.main.map((item) => (
           <div key={item.name} className="px-5 py-2">
@@ -78,7 +78,7 @@ function Footer() {
           </div>
         ))}
       </nav>
-      <div className="mt-8 flex justify-center space-x-6">
+      <div className="mt-6 lg:mt-0 flex justify-center space-x-6">
         {footerNavigation.social.map((item) => (
           <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-300">
             <span className="sr-only">{item.name}</span>
@@ -86,7 +86,7 @@ function Footer() {
           </a>
         ))}
       </div>
-      <p className="mt-8 text-center text-base text-gray-400">
+      <p className="mt-6 lg:mt-0 text-center text-base text-gray-400">
         &copy; {new Date().getFullYear()} Nguyen Dev | Tous droits réservés.
       </p>
     </div>
