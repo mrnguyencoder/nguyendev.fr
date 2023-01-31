@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react';
+
 
 function Footer() {
   const navigation = [
@@ -88,7 +88,6 @@ function Footer() {
             <item.icon className="h-6 w-6" aria-hidden="true" />
           </a>
         ))}
-        <Link to="/mentionslegales" className=''>Mentions Légales</Link>
       </div>
       <p className="mt-6 lg:mt-0 text-center text-base text-gray-400">
         &copy; {new Date().getFullYear()} Nguyen Dev | Tous droits réservés.
@@ -97,5 +96,4 @@ function Footer() {
   </footer>
   )
 }
-
 export default Footer

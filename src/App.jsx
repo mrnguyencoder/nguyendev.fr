@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Prestations from './components/Prestations';
 import Contact from './components/Contact';
 import FAQs from './components/FAQs';
@@ -9,7 +9,7 @@ import Scrolled from './components/Scrolled';
 
 function App() {
   return (
-    <div>
+    <>
       <Scrolled/>
       <NavBar/>
       <Hero/>
@@ -17,7 +17,7 @@ function App() {
       <FAQs/>
       <Contact/>
       <Footer/>
-    </div>
+    </>
   )
 }
 

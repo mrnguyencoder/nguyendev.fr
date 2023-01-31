@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 function MentionsLegales() {
   return (
@@ -45,4 +45,4 @@ function MentionsLegales() {
   )
 }
 
-export default MentionsLegales
+export default MentionsLegales;
