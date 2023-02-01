@@ -98,7 +98,7 @@ function Footer() {
         &copy; {new Date().getFullYear()} Nguyen Dev | Tous droits réservés.
       </p>
     </div>
-    <div className="text-center py-6">
+    <div className="text-center py-8">
       <button onClick={() => setMentionsLegales(true)}
               className="text-gray-400 hover:scale-110 hover:text-slate-300">
         Mentions Legales
