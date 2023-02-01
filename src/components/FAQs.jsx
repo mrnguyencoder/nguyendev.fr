@@ -12,7 +12,7 @@ function FAQs() {
         {
           question: `Prix ​​le plus bas pour 1 site Web ?`,
           answer:
-            `À partir de 150€ pour CV étudiant, et le restaurant n'a qu'une seule page de menu. À partir de 350€ pour un site web vitrine personel ou entreprise. Et à partir de 850€ pour un site Blogueurs`,
+            `À partir de 150€ pour CV étudiant, de 250€ pour le restaurant n'a qu'une seule page de menu. À partir de 450€ pour un site web vitrine personel ou entreprise. Et à partir de 850€ pour un site Blogueurs`,
         },
         {
           question: `Mais pourquoi le prix est-il si bon ?`,
