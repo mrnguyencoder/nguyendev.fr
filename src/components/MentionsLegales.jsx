@@ -3,7 +3,7 @@ import { XMarkIcon } from '@heroicons/react/24/outline';
 
 function MentionsLegales({ onClose }) {
   return (
-    <section className='text-slate-300 p-6 text-left md:px-20'>
+    <section className='text-slate-300 p-6 text-left md:px-20 overflow-x-hidden'>
         <h2 className="text-4xl text-center font-bold tracking-wide ">Mentions légales</h2>
         <div className="flex justify-center p-8 ">
           <div className="border-4 border-blue-600 w-20 rounded-l-lg"></div>

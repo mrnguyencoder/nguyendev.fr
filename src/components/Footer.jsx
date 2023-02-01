@@ -73,7 +73,7 @@ function Footer() {
     ],
   }
   return (
-    <footer className="bg-gray-800">
+    <footer className="bg-gray-800 overflow-x-hidden">
     <div className="mx-auto pt-6 px-4 lg:flex lg:justify-between">
       <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
         {footerNavigation.main.map((item) => (
