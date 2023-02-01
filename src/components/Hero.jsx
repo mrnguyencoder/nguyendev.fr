@@ -11,7 +11,7 @@ function Hero() {
               Création de Site Internet Sur Mesure
             </h1>
             <h2 className="mx-auto pt-5 max-w-2xl text-2xl font-bold tracking-tight text-white">
-              À partir de 350€ pour un site web vitrine simple région Île-de-France
+              À partir de 150€ pour un site CV étudiant, 250€ pour un site simple menu restaurant ou 450€ pour un site web vitrine région Île-de-France
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Parce que chaque site est unique, il doit être personnalisé avec un design et des fonctionnalités particulières Soyez unique !
