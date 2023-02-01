@@ -3,7 +3,7 @@ import React from 'react';
 
 function Hero() {
   return (
-    <section id="accueil" className="bg-gray-900 h-screen isolate overflow-x-hidden">
+    <section id="accueil" className="bg-gray-900 min-h-screen isolate ">
       <div className="relative py-24 sm:py-32 lg:pb-40">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
@@ -19,7 +19,7 @@ function Hero() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
               href="#contact"
-              className="rounded-md bg-[#F0DB4F] px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-lg hover:scale-90 transition duration-500"
+              className="rounded-md bg-[#F0DB4F] px-3.5 py-1.5 text-base ms:text-ms font-semibold leading-7 text-white shadow-lg hover:scale-90 transition duration-500"
               >
                   Demande de Devis 
               </a>
@@ -33,10 +33,10 @@ function Hero() {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1024 1024"
-        className="absolute top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2"
+        className="absolute overflow-hidden hidden lg:flex lg:top-1/2 -z-10 "
         aria-hidden="true"
       >
-        <circle cx={512} cy={512} r={512} fill="url(#8d958450-c69f-4251-94bc-4e091a323369)" fillOpacity="0.7" />
+        <circle cx={512} cy={512} r={512} fill="url(#8d958450-c69f-4251-94bc-4e091a323369)" fillOpacity="0.7" className='overflow-x-hidden'/>
         <defs>
           <radialGradient
             id="8d958450-c69f-4251-94bc-4e091a323369"

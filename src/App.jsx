@@ -9,7 +9,7 @@ import Scrolled from './components/Scrolled';
 
 function App() {
   return (
-    <>
+    <div className='overflow-hidden'>
       <Scrolled/>
       <NavBar/>
       <Hero/>
@@ -17,7 +17,7 @@ function App() {
       <FAQs/>
       <Contact/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
