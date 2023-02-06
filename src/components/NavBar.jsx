@@ -80,7 +80,8 @@ function NavBar() {
             <div className="py-6">
               <a
                 href="https://wa.me/33782885224"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-white hover:bg-[#25d366]"
               >
                 WhatsApp-moi
