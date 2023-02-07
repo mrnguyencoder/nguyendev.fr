@@ -32,7 +32,7 @@ function Prestations() {
             Pour mieux servir mes clients, je me spécialise dans la fourniture de solutions complètes aux quatre types de clients suivants:
             </p>
             <p className="mt-5 text-lg text-gray-300">
-            Je propose une gamme complète de services, y compris la conception de logos, la conception de menus, la création de sites CV, l'enregistrement de domaines, le développement de sites web, l'optimisation pour les moteurs de recherche (SEO), la liste Google My Business et plus encore. Laissez-moi vous aider à répondre à vos besoins spécifiques et à atteindre vos objectifs.
+            Je propose une gamme complète de services, y compris la conception de logos, la conception de menus, la création de sites CV, l'enregistrement de domaines, le développement de sites web, l'optimisation pour les moteurs de recherche (SEO), Fiche d'établissement Google et plus encore. Laissez-moi vous aider à répondre à vos besoins spécifiques et à atteindre vos objectifs.
             </p>
             <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
             {prestations.map((item) => (

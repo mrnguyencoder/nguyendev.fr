@@ -14,7 +14,7 @@ function Hero() {
             En tant que développeur web solo, je propose des services de développement de sites web personnalisés qui peuvent prendre votre projet de la conception à la finalisation. Les prix débutent à 150€ pour un site CV étudiant, 250€ pour un site de menu de restaurant simple ou 450€ pour un site de présentation de la région Ile-de-France.
             </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-          Chaque site est unique, et je combine mon expertise technique à une vision créative pour garantir que votre site soit fonctionnel et visuellement attrayant. N'hésitez pas à me contacter pour en savoir plus.
+          Chaque site est unique, et je combine mon expertise technique à une vision créative pour garantir que votre site soit fonctionnel et visuellement attrayant.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
