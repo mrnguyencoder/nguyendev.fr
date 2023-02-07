@@ -8,13 +8,13 @@ function Hero() {
       <div className="py-24 px-6 sm:px-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
         <h1 className="text-4xl font-bold text-white sm:text-6xl">
-              Création de Site Internet Sur Mesure
+          Développement de sites web personnalisé par un développeur solo
             </h1>
             <h2 className="mx-auto pt-5 max-w-2xl text-2xl font-bold tracking-tight text-white">
-              À partir de 150€ pour un site CV étudiant, 250€ pour un site simple menu restaurant ou 450€ pour un site web vitrine région Île-de-France
+            En tant que développeur web solo, je propose des services de développement de sites web personnalisés qui peuvent prendre votre projet de la conception à la finalisation. Les prix débutent à 150€ pour un site CV étudiant, 250€ pour un site de menu de restaurant simple ou 450€ pour un site de présentation de la région Ile-de-France.
             </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-          Parce que chaque site est unique, il doit être personnalisé avec un design et des fonctionnalités particulières. Soyez unique !
+          Chaque site est unique, et je combine mon expertise technique à une vision créative pour garantir que votre site soit fonctionnel et visuellement attrayant. N'hésitez pas à me contacter pour en savoir plus.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
