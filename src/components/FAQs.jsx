@@ -19,6 +19,7 @@ function FAQs() {
           answer:
             `Le délai pour le développement d'un site web peut varier en fonction de la complexité et de la portée du projet. Pour des projets simples, je peux généralement terminer le processus de développement en un jour. Cependant, pour des projets plus complexes avec un grand nombre de fonctionnalités et de exigences de personnalisation, cela peut prendre entre 3 et 4 semaines pour être achevé. Je travaillerai avec vous pour établir un calendrier qui répond à vos besoins et attentes, et je vous tiendrai informé de tout changement ou mise à jour tout au long du processus.`,
         },
+        {
           question: `Comment abordez-vous la conception et le développement de sites web ?`,
           answer:
             `En tant que programmeur, je ne suis pas spécialisé dans la conception, cependant, mon service inclut des options de conception si vous n'avez pas déjà un design en place. J'utilise des outils tels que Canva pour créer des logos et des interfaces utilisateur.`,
