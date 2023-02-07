@@ -22,7 +22,7 @@ const Scrolled = () => {
   const scrollPercentage = useScrollPercentage();
 
   return (
-    <div className="fixed top-0 w-full h-1 z-20 overflow-x-hidden transition duration-700 rounded-md opacity-30"
+    <div className="fixed top-0 w-full h-1 z-20 overflow-x-hidden transition duration-700 rounded-md opacity-50"
          style={{background: `linear-gradient(to right, 
                             transparent 0%, transparent ${scrollPercentage}%, 
                             #61dbfb ${scrollPercentage}%, #61dbfb 100%)`}}>
