@@ -45,11 +45,6 @@ function FAQs() {
             `Oui, je peux vous aider avec l'hébergement de site web et l'enregistrement de domaine. Je propose une inscription de domaine gratuite pour un an avec chaque projet de développement de site web, après quoi vous pouvez renouveler le domaine au tarif du marché. J'utilise l'hébergement d'entreprise Hostinger, vous pouvez donc facilement vérifier le coût de renouvellement de domaine avec eux. Faites-moi savoir s'il y a autre chose que je peux vous aider à faire.`,
         },
         {
-          question: `Pouvez-vous fournir des études de cas ou des exemples de sites Web que vous avez développés pour des entreprises ou des organisations similaires ?`,
-          answer:
-            `Bien sûr, je serais heureux de vous fournir des exemples de sites web que j'ai développés pour des entreprises et des organisations similaires. J'ai une gamme de modèles que j'ai créés pour différents secteurs, et je peux également personnaliser ces modèles pour répondre à vos besoins et préférences spécifiques. De plus, je suis toujours ravi d'entendre vos idées et votre vision pour votre site web, et je suis déterminé à vous aider à créer une présence en ligne unique et efficace pour votre entreprise.`,
-        },
-        {
           question: `Pouvez-vous concevoir et développer des fonctionnalités personnalisées pour mon site web, telles que des capacités de commerce électronique ou des formulaires personnalisés? `,
           answer:
             `Je me spécialise dans la conception et le développement de l'interface web et je peux fournir des solutions personnalisées qui répondent à vos besoins spécifiques. Cependant, je n'offre actuellement que l'intégration de blogs et non de fonctionnalités de commerce électronique. Si vous avez un design spécifique en tête pour votre site web, je serais heureux de travailler avec vous pour le concrétiser et de fournir une solution adaptée à vos exigences.`,

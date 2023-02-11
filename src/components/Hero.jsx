@@ -8,14 +8,11 @@ function Hero() {
       <div className="py-24 px-6 sm:px-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
         <h1 className="text-4xl font-bold text-white sm:text-6xl">
-          Développement de sites web personnalisé
+          Création de sites web personnalisés
             </h1>
             <h2 className="mx-auto pt-5 max-w-xl text-2xl font-bold tracking-tight text-slate-50">
-            En tant que développeur web solo, je propose des services qui peuvent prendre votre projet de la conception à la finalisation.
+            Je propose des services de développement web de la conception à la finalisation de votre project.
             </h2>
-            <h3 className="mx-auto pt-6 max-w-2xl text-xl font-bold tracking-tight text-slate-200">
-            Les prix à partir de 150€ pour un site CV étudiant, de 250€ pour un site de menu de restaurant simple, de 450€ pour un site de présentation et de 850€ pour un blog site en région Ile-de-France.
-            </h3>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
           Chaque site est unique, et je combine mon expertise technique à une vision créative pour garantir que votre site soit fonctionnel et visuellement attrayant.
           </p>
