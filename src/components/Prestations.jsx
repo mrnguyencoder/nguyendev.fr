@@ -1,5 +1,5 @@
 import React from 'react';
-import working from '../assets/working.jpg'
+import working from '../assets/program-g4a05d4a7a_1920.jpg'
 
 function Prestations() {
     const prestations = [
